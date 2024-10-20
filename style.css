@@ -38,31 +38,25 @@ header {
     overflow: hidden; /* Prevents overflow of the pseudo-element */
 }
 
-/* Hover effects */
 .about-text:hover {
-    border-color: #1a96bc; /* Change border color on hover */
-    background-color: #f0f4f8; /* Light background on hover */
-    cursor: pointer; /* Change cursor to pointer */
+    border-color: #1a96bc;
+    background-color: #f0f4f8; 
+    cursor: pointer;
 }
 
-/* Decorative pseudo-element for visual interest */
 .about-text::after {
-    content: ""; /* Empty content for the pseudo-element */
-    position: absolute; /* Position relative to the parent */
-    top: 0; /* Position at the top */
-    left: 0; /* Position at the left */
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    background: rgba(44, 62, 80, 0.1); /* Semi-transparent overlay */
-    border-radius: 15px; /* Match the border radius */
-    z-index: 0; /* Behind the text */
-    transition: opacity 0.4s ease; /* Smooth transition for visibility */
-    opacity: 0; /* Start hidden */
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%; 
+    background: rgba(44, 62, 80, 0.1); 
+    border-radius: 15px;
+    z-index: 0; 
+    transition: opacity 0.4s ease; 
+    opacity: 0; 
 }
-
-/* Show overlay on hover*/
-
-
 
 
 .navbar {
@@ -129,17 +123,17 @@ header {
 }
 
 .project h3 {
-    margin-bottom: 15px; /* Space below each heading */
+    margin-bottom: 15px; 
 }
 
 .project p {
-    text-align: justify; /* Justify the text */
-    line-height: 1.5; /* Optional: Adjust line height for better readability */
+    text-align: justify; 
+    line-height: 1.5; 
 }
 
 
 #contact {
-    padding-bottom: 145px; /* Ensure there's still enough space above the footer */
+    padding-bottom: 145px; 
 }
 
 
